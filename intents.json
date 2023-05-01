@@ -1,0 +1,97 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey Maya",
+                "How are you",
+                "What's up"
+            ],
+            "responses": [
+                "Hello! How can I assist you today?",
+                "Hi there! How can I help you?",
+                "Hey! What can I do for you today?"
+            ]
+        },
+        
+        {
+            "tag": "account_information",
+            "patterns": [
+                "What are the types of accounts?",
+                "Can you tell me about account opening?",
+                "What types of accounts do you offer?",
+                "What kind of accounts can I open?",
+                "I want to know about accounts"
+            ],
+            "responses": [
+                "We offer a range of accounts including savings, current and fixed deposit accounts. Which one would you like to know more about?",
+                "We have various types of accounts such as savings, current and fixed deposit accounts. Which account are you interested in?",
+                "We have multiple account options such as savings, current and fixed deposit accounts. What type of account would you like to learn more about?"
+            ]
+        },
+        {
+            "tag": "account_features",
+            "patterns": [
+                "What are the features of a savings account?",
+                "What are the benefits of a current account?",
+                "Can you tell me about the features of a fixed deposit account?",
+                "What kind of features are available with savings account?",
+                "Tell me about the benefits of a savings account",
+                "What are the advantages of having a current account?"
+            ],
+            "responses": [
+                "Some of the features of a savings account include: interest on your balance, easy withdrawals, and easy transfers. What else can I help you with?",
+                "Current accounts come with features like: no limits on transactions, overdraft facility, and cheque book facility. Would you like to know more?",
+                "Fixed deposit accounts offer features like: high interest rates, flexible tenures, and guaranteed returns. What else would you like to know?",
+                "Savings account provide features like: interest on your balance, easy withdrawals, and easy transfers. Is there anything else you want to know?",
+                "Some of the benefits of a savings account include: interest on your balance, easy withdrawals, and easy transfers. What else can I help you with?",
+                "Current accounts offer advantages such as: no limits on transactions, overdraft facility, and cheque book facility. Would you like to know more?"
+            ]
+        },
+        {
+            "tag": "account_closing",
+            "patterns": [
+                "How can I close my account?",
+                "What is the process for closing my account?",
+                "Can you help me with account closing process?",
+                "I want to close my account"
+            ],
+            "responses": [
+                "To close your account, you will need to visit one of our branches and fill out an account closure form. Is there anything else you would like to know?",
+                "You can close your account by visiting one of our branches and filling out an account closure form. Would you like more information?",
+                "To begin the account closing process, you can visit one of our branches and complete an account closure form. What else can I help you with?",
+                "Sure, to close your account, you can visit one of our branches and fill out an account closure form."
+            ]
+        },
+        {
+      "tag": "account_types",
+      "patterns": ["What are the different types of savings accounts?", "Which savings account is right for me?", "Can I have more than one savings account?"],
+      "responses": ["There are different types of savings accounts, such as regular savings accounts, high-yield savings accounts, and money market accounts. The right savings account for you depends on your financial goals and needs. Yes, you can have more than one savings account, depending on your bank's policies."]
+    },
+
+      {
+      "tag": "fees_charges",
+      "patterns": ["What are the fees and charges?", "Is there a monthly maintenance fee for a savings account?", "Are there any fees for transferring money from my savings account?", "an fees or charges?"],
+      "responses": ["Fees and charges for a savings account vary by bank and account type. Some common fees include monthly maintenance fees, overdraft fees, and fees for excessive withdrawals. Some banks also charge fees for transferring money from your savings account to another account, although this depends on your bank's policies."]
+    },
+        {
+            "tag": "account_opening",
+            "patterns": ["How do I open an account?", "What are the criteria for opening a savings account?", "Can you tell me about the eligibility for opening a checking account?", "What documents do I need to open an investment account?"],
+            "responses": ["To open an account, you'll need to visit one of our branches and speak with a representative. They will guide you through the process and help you open your account. The criteria and eligibility for opening different types of accounts may vary, and the required documents may also differ. Our representative will provide you with all the necessary information during the account opening process. Is there anything else you need assistance with?"]
+},
+{
+            "tag": "documents required",
+            "patterns": [
+                "what are the documents required?",
+                "What kind of documents are required?",
+                "documents required?",
+                "is there any document required?"
+            ],
+            "responses": [
+                "yes, you will require some documents based on the type of account you are opening. For this, you'll require- ID proof (adhar card, pan card, Voter's Identity Card issued by Election Commission of India, Job card issued by NREGA duly signed by an officer of the State Government, Letter issued by the National Population Register containing details of name and address."]
+ 
+            }
+]
+}   
